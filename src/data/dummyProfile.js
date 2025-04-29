@@ -42,7 +42,7 @@ const profiles = [
     pfp: "https://randomuser.me/api/portraits/men/7.jpg",
   },
   {
-    name: "Fajar Nugroho",
+    name: "Nugroho Hytam",
     address: "Jl. Teratai No. 7, Palembang",
     phone: "087733334444",
     pfp: "https://randomuser.me/api/portraits/men/8.jpg",
