@@ -45,7 +45,7 @@ const profiles = [
     name: "Nugroho aja sihhh",
     address: "Jl. Teratai No. 7, Palembang",
     phone: "087733334444",
-    pfp: "c:\Users\muslih\OneDrive\Pictures\WhatsApp Image 2025-04-29 at 09.59.11_3c0a8256.jpg",
+    pfp: "public/icons/WhatsApp Image 2025-04-29 at 09.59.11_3c0a8256.jpg",
   },
   {
     name: "Bayu Setiawan",
