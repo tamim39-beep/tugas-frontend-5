@@ -1,4 +1,4 @@
-import ProfileCard from "./component/profileCard";
+import ProfileCard from "./component/ProfileCard";
 import profiles from "./data/dummyProfile";
 
 export default function App() {
