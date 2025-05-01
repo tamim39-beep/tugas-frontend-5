@@ -1,17 +1,19 @@
-export default function ProfileCard({ name, address, phone, pfp }) {
+export default function ProfileCard({ name, address, phone, pfp, bestie }) {
   return (
-    <div className="card">
-      <div>
-        <img src={pfp} alt="" />
+    <div className={`card ${bestie ? "bestie-card" : ""}`}>
+      <div className="profile-header">
+        <img src={pfp} alt={`${name}`} />
         <p>{name}</p>
+        {bestie && <span className="bestie-label">BEST FRIEND</span>}
       </div>
-      <div>
-        <div>
+
+      <div className="profile-info">
+        <div className="info-row">
           <img src="/icons/home.svg" className="icon" />
           <p>{address}</p>
         </div>
 
-        <div>
+        <div className="info-row">
           <img src="/icons/whatsapp.svg" className="icon" />
           <a href={`https://wa.me/${phone}`}>{phone}</a>
         </div>

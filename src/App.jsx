@@ -16,6 +16,7 @@ export default function App() {
             address={profile.address}
             pfp={profile.pfp}
             phone={profile.phone}
+            bestie={profile.bestie}
           />
         ))}
       </div>

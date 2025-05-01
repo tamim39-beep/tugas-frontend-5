@@ -94,3 +94,14 @@ h1 br + span {
   font-size: 0.9rem;
   color: #555;
 }
+
+.bestie-label {
+  background-color: #e6fff0; 
+  color: #178a46;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  border: 1px solid #178a46; 
+  margin-left: auto;
+  font-weight: bold;
+}
